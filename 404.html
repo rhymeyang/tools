@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.15" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>Vicky's Notes</title><meta name="description" content="Collection">
+    <link rel="preload" href="/tools/assets/style-DY6JTdq5.css" as="style"><link rel="stylesheet" href="/tools/assets/style-DY6JTdq5.css">
+    <link rel="modulepreload" href="/tools/assets/app-U9cEmwLg.js"><link rel="modulepreload" href="/tools/assets/404.html-B_n9rG6L.js">
+    <link rel="prefetch" href="/tools/assets/index.html-YX9D1zTF.js" as="script"><link rel="prefetch" href="/tools/assets/Linux.html-28vUaFVM.js" as="script"><link rel="prefetch" href="/tools/assets/Books.html-DlnbVWH-.js" as="script"><link rel="prefetch" href="/tools/assets/Old.html-DAICiy53.js" as="script"><link rel="prefetch" href="/tools/assets/index.html-B-HqGzXp.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-463c2c5d><main class="page" data-v-463c2c5d><div class="theme-default-content" vp-content data-v-463c2c5d><h1 data-v-463c2c5d>404</h1><blockquote data-v-463c2c5d>There&#39;s nothing here.</blockquote><a class="route-link" href="/tools/" data-v-463c2c5d>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/tools/assets/app-U9cEmwLg.js" defer></script>
+  </body>
+</html>
