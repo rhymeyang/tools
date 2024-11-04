@@ -24,10 +24,19 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'Daily',
+          collapsable: true,
+          children: [
+            { text: "Tools", link: '/General/Daily.md' },
+
+          ],
+        },
+        {
           text: 'Resource',
           collapsable: true,
           children: [
             { text: "Book", link: '/Resource/Books.md' },
+            { text: "Go", link: '/Resource/Go.md' },
 
           ],
         },
