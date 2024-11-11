@@ -36,8 +36,8 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "Book", link: '/Resource/Books.md' },
-            { text: "Go", link: '/Resource/Go.md' },
-
+          //  { text: "Go", link: '/Resource/Go.md' },
+          { text: "BlockChain", link: '/Test/blockchain.md' },
           ],
         },
         {
