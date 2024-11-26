@@ -27,7 +27,7 @@ export default defineUserConfig({
           text: 'Daily',
           collapsable: true,
           children: [
-            { text: "Tools", link: '/General/Daily.md' },
+            { text: "Daily Tools", link: '/General/Daily_Tools.md' },
 
           ],
         },
