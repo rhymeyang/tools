@@ -16,7 +16,10 @@ eval "$(ssh-agent -s)"
 Host github.com
   AddKeysToAgent yes
   UseKeychain yes
+  HostName github.com
+  User git
   IdentityFile ~/.ssh/id_ed25519
+
 
 Host github.com-somename
     HostName github.com
@@ -31,7 +34,11 @@ Host github.com
 ### keychain
 
 ```shell
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+# latest version of MacOS (12.0 Monterey)
+ssh-add --apple-use-keychain ~/.ssh/[your-private-key]
+
+# MacOS older than 12.0 Monterey
+ssh-add -K ~/.ssh/[your-private-key]
 ```
 
 ## git init
