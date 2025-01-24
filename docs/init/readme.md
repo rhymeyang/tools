@@ -13,7 +13,7 @@ eval "$(ssh-agent -s)"
 ### config
 
 ```Text
-Host github.com
+Host github.com-name1
   AddKeysToAgent yes
   UseKeychain yes
   HostName github.com
@@ -21,10 +21,10 @@ Host github.com
   IdentityFile ~/.ssh/id_ed25519
 
 
-Host github.com-somename
+Host github.com-name2
     HostName github.com
     User git
-    IdentityFile ~/.ssh/ed25519_somename
+    IdentityFile ~/.ssh/ed25519_name2
 
 Host github.com
   IgnoreUnknown UseKeychain

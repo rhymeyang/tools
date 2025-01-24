@@ -7,6 +7,7 @@ export default defineUserConfig({
   base: '/tools/',
   theme: defaultTheme({
     logo: '/tools/images/logo.png',
+    contributors: false,
     navbar: false,
     sidebar: {
       '/': [
@@ -35,9 +36,10 @@ export default defineUserConfig({
           text: 'Resource',
           collapsable: true,
           children: [
+            { text: "逆向", link: '/C/source.md' },
             { text: "Book", link: '/Resource/Books.md' },
-          //  { text: "Go", link: '/Resource/Go.md' },
-          { text: "BlockChain", link: '/Test/blockchain.md' },
+            //  { text: "Go", link: '/Resource/Go.md' },
+            { text: "BlockChain", link: '/Test/blockchain.md' },
           ],
         },
         {
