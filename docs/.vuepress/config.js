@@ -25,6 +25,14 @@ export default defineUserConfig({
           ],
         },
         {
+          text: 'Raspberry',
+          collapsable: true,
+          children: [
+            '/Raspberry/01.md',
+            '/Raspberry/02.md',
+          ],
+        },
+        {
           text: 'Daily',
           collapsable: true,
           children: [
