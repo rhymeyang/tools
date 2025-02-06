@@ -6,7 +6,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   base: '/tools/',
   theme: defaultTheme({
-    logo: '/tools/logo.png',
+    logo: '/tools/favicon.svg',
     contributors: false,
     navbar: false,
     sidebar: {
