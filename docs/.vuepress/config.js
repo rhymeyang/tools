@@ -6,7 +6,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   base: '/tools/',
   theme: defaultTheme({
-    logo: '/tools/images/logo.png',
+    logo: '/tools/logo.png',
     contributors: false,
     navbar: false,
     sidebar: {
@@ -22,6 +22,14 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "Old System", link: '/System/Old.md' },
+          ],
+        },
+        {
+          text: 'AI',
+          collapsable: true,
+          children: [
+            // '/AI/01_Course.md',
+            '/AI/02_ollama.md',
           ],
         },
         {
