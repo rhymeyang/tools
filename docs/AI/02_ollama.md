@@ -1,3 +1,9 @@
+---
+lang: zh-CN
+title: Ollama
+description: some description
+---
+
 ## Python
 
 - [install python](https://kinsta.com/knowledgebase/install-python/)
