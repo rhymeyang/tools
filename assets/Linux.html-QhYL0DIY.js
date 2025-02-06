@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./app-Buad3BEd.js";const a={};function c(r,i){return n(),t("div")}const s=e(a,[["render",c],["__file","Linux.html.vue"]]),_=JSON.parse('{"path":"/Env/Linux.html","title":"","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1730437008000},"filePathRelative":"Env/Linux.md"}');export{s as comp,_ as data};
