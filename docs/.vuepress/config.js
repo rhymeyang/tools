@@ -30,6 +30,7 @@ export default defineUserConfig({
           children: [
             // '/AI/01_Course.md',
             '/AI/02_ollama.md',
+            'AI/02.webui.md'
           ],
         },
         {

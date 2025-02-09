@@ -8,3 +8,7 @@
 
 + [My IP](https://www.myip.com/)
 + [scamalytics](https://scamalytics.com/)
+
+## Logo
+
++ [logofast](https://logofa.st/)
