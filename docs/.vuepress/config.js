@@ -29,6 +29,7 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             // '/AI/01_Course.md',
+            '/AI/00_env_python.md',
             '/AI/00_Certification.md',
             '/AI/02_ollama.md',
             'AI/02.webui.md'
