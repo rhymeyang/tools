@@ -1,3 +1,9 @@
+---
+lang: zh-CN
+title: Python Env Setting
+description: some description
+---
+
 ## pyenv
 
 ```shell
