@@ -66,6 +66,8 @@ export default defineUserConfig({
           collapsable: true,
           children: [
             { text: "Linux", link: '/Env/Linux.md' },
+            { text: "Can Debug", link: '/Env/Can.md' },
+            { text: "Can Detail Debug", link: '/Env/CanTrouble.md' },
           ],
         }
       ]
